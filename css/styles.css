@@ -1,5 +1,10 @@
+. {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0px;
+    line-height: 1.5;
 }
 
 .cv-document {
@@ -33,3 +38,40 @@ body {
 
     padding: 40px
 }
+
+.section-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+}
+
+.name{
+    font-size: 30px;
+    color: #0e2452;
+}
+
+.my-info {
+    font-size: 20px;
+    color: #0e2452;
+    display: inline-block;
+    margin-right: 100px;
+}
+.content-info {
+    font-size: 20px;
+    color: #0e2452;
+    display: inline-block;
+}
+
+ #info {
+    position: relative;
+    margin-bottom: 40px;
+ }
+
+.avt {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25%;
+ }
