@@ -82,4 +82,14 @@ body {
     text-align: justify;
  }
 
- 
+ .flex {
+    display: flex;
+    border-bottom: 2px solid #E8E8E8;
+    font-size: 20px;
+    padding: 4px;
+    column-gap: 50px;
+ }
+
+ .right-content {
+    margin-left: 70px;
+ }
