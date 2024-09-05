@@ -90,6 +90,6 @@ body {
     column-gap: 50px;
  }
 
- .right-content {
-    margin-left: 70px;
+ .flex > div {
+    width: 1000px;
  }
